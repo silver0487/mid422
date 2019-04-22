@@ -1,0 +1,121 @@
+*{
+  padding: 0;
+  margin: 0;
+/*   outline: 1px solid #000; */
+/*   border: 1px solid black; */
+}
+
+body{
+  background:  	#77DDFF;
+  animation-name: moveb;
+  animation-duration:4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.ellipes{
+  width:300px;
+  height: 100px;
+  border-radius: 75px;
+  background: #f2fafe;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+ animation-name: move;
+  animation-duration:4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.circle{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #f2fafe;
+  position: absolute;
+  animation-name: movec;
+  animation-duration:4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+}
+
+.circle1{
+  top:-38px;
+  left: 30px;
+ 
+}
+
+.circle2{
+  top: -45px;
+  right: 45px;
+
+}
+
+.circle3{
+  bottom: -50px;
+  left: 0px;
+  right:0px;
+  margin:auto;
+  
+}
+
+
+
+@keyframes move{
+  0%{
+    right:1000px;
+    background: #ffffb9
+    
+  }
+ 
+  49.9%{
+    
+   background: #ffffff
+    
+  }
+  50%{
+   
+    transform: scale( 1.5 )  
+    
+  }
+  100%{
+    left:1000px;
+    background: #5b5b5b
+  }
+}
+@keyframes moveb{
+  0%{
+   background: 	#ffdcb9
+    
+  }
+ 
+  
+  50%{
+   background:#77DDFF
+    
+  }
+  100%{
+     	background:#3c3c3c
+   
+  }
+}
+@keyframes movec{
+  0%{
+   background: 	 #ffffb9
+    
+  }
+ 
+  
+  50%{
+   background: #ffffff
+    
+  }
+  100%{
+     	background: #5b5b5b
+   
+  }
+}
