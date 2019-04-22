@@ -68,16 +68,21 @@ body{
 @keyframes move{
   0%{
     right:1000px;
+background: #ffffff
+    
+  }
+ 40%{
+    
+background: #ffffff
+    
+  }
+  
+  74.9%{
     background: #ffffb9
+   
     
   }
- 
-  49.9%{
-    
-   background: #ffffff
-    
-  }
-  50%{
+  75%{
    
     transform: scale( 1.5 )  
     
@@ -89,13 +94,17 @@ body{
 }
 @keyframes moveb{
   0%{
-   background: 	#ffdcb9
+  background:#77DDFF
     
   }
  
-  
-  50%{
-   background:#77DDFF
+  40%{
+  background:#77DDFF
+    
+  }
+  75%{
+   
+     background: 	#ffdcb9
     
   }
   100%{
@@ -105,13 +114,18 @@ body{
 }
 @keyframes movec{
   0%{
-   background: 	 #ffffb9
+    background: #ffffff
+   
     
   }
- 
+ 40%{
+    background: #ffffff
+   
+    
+  }
   
-  50%{
-   background: #ffffff
+  75%{
+   background: 	 #ffffb9
     
   }
   100%{
